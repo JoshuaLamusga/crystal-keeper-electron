@@ -1,0 +1,16 @@
+{
+  "name": "crystal-keeper",
+  "productName": "Crystal Keeper",
+  "version": "1.0.0",
+  "description": "Cataloguing software for tracking specimens and related information",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Joshua Lamusga"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ../internals/scripts/BabelRegister.js ../internals/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
